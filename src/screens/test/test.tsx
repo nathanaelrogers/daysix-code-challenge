@@ -76,6 +76,28 @@ export const Test = ({
     </small>
   );
 
+  const monthNames = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+  const testDate = new Date(result.timestamp);
+  const testDateMessage = (
+    <small>
+      Test Date: {testDate.getDate()} {monthNames[testDate.getMonth()]},{" "}
+      {testDate.getFullYear()}
+    </small>
+  );
+
   const aboveAverageFeedback = (
     <>
       <p>How does this compare</p>
@@ -188,6 +210,7 @@ export const Test = ({
           </button>
           <h2>Sit Stand Test Result</h2>
           {freshResult ? congratMessage : null}
+          {freshResult ? null : testDateMessage}
         </div>
         <div className="test-screen-body">
           <div className="test-screen-body-repcount">
