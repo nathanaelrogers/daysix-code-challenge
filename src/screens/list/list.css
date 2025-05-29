@@ -84,7 +84,7 @@ body {
 
 .info-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 10rem 10rem;
   gap: 8px 16px;
 }
 
