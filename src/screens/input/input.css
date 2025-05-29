@@ -1,0 +1,148 @@
+.input-screen-background {
+  height: 100vh;
+  background-color: rgba(0, 192, 167, 1);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.input-screen-header {
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+
+.input-screen-content {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input-screen-content-gif {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 2rem;
+  width: 10%;
+}
+
+.stand-gif {
+  width: 60%;
+  height: auto;
+  z-index: 2;
+  margin-bottom: -40px;
+}
+
+.circle {
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.outer-circle {
+  width: 400px;
+  height: 400px;
+  background: #25cdb8;
+  z-index: 0;
+}
+
+.inner-circle {
+  width: 250px;
+  height: 250px;
+  background: #49d4c2;
+  z-index: 1;
+}
+
+.input-screen-content-timer-reps {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+
+.input-screen-content-timer {
+  display: flex;
+}
+
+.input-screen-content-reps {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #6cddce;
+  border-bottom: 1px solid #6cddce;
+  padding: 1rem;
+  gap: 0.5rem;
+  width: 100%;
+  height: 1rem;
+}
+
+.input-screen-reps-label {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+
+.edit-score-button-group {
+  display: flex;
+}
+
+.edit-score-button-label {
+  padding: 1rem 0.5rem;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+
+.edit-score-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.edit-score-button-symbol {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  border: none;
+  color: white;
+}
+
+.input-screen-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.input-screen-submit {
+  padding: 0.75rem 1.5rem;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #00c0a7;
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 35%;
+}

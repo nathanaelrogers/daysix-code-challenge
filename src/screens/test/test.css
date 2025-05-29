@@ -1,0 +1,125 @@
+.test-screen {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgba(0, 192, 167, 1);
+}
+
+.test-screen-header {
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+
+.test-screen-back-button {
+  position: absolute;
+  left: 1rem;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.test-screen-back-button-symbol {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  border: none;
+}
+
+.test-screen-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.test-screen-body-repcount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #6cddce;
+  border-bottom: 1px solid #6cddce;
+  padding: 1rem;
+  gap: 0.5rem;
+  width: 40%;
+  height: 1rem;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+
+.test-screen-body-averages-table {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-size: small;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.averages-table-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #6cddce;
+}
+
+.averages-table-row:last-child {
+  border-bottom: none;
+}
+
+.test-screen-body-tips {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-size: small;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+.test-screen-footer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.test-screen-button {
+  padding: 0.75rem 1.5rem;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #00c0a7;
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 25%;
+  margin-bottom: 2rem;
+}
